@@ -1,0 +1,33 @@
+font:
+  normal:
+    family: Mononoki Nerd Font
+    #    family: Monocraft
+    style: Regular
+
+  size: 13
+
+colors:
+  primary:
+    background: "0x000000"
+    foreground: "0xff0055"
+
+  normal:
+    black: "0x002b36"
+    red: "0xdc322f"
+    green: "0x00ff84"
+    yellow: "0xfffc58"
+    blue: "0x76c1ff"
+    magenta: "0xff5dfd"
+    cyan: "0x05e0f4"
+    white: "0xffffff"
+
+  cursor:
+    text: "0x000000"
+    cursor: "0xffff00"
+    style: Block
+    blinking: Off
+
+window:
+  opacity: 0.85
+
+  dymanic_padding: true

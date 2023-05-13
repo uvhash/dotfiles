@@ -1,0 +1,3 @@
+return {
+	modKey = "Mod1",
+}

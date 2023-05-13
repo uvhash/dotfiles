@@ -1,0 +1,15 @@
+// Unmute
+
+amixer set Capture cap
+
+// Mute
+
+amixer set Capture nocap
+
+// Toggle mute
+
+amixer set Capture toggle
+
+// Check mute status
+
+amixer get Capture | grep '\[*\]'

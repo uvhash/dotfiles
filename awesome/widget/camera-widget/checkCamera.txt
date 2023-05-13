@@ -1,0 +1,17 @@
+// Check status of camera
+// a 0 indicates the camera is off
+// a 1 indicates the camera is on
+
+// Only works to check if camera is off
+// gives incorrect value when camera is on
+// there are 31 bytes before the correct value
+lsmod | grep -E '^uvcvideo' | cut -b 31
+
+
+// Checks if camera is off
+// does not cut off extra bytes before value
+lsmod | grep -E '^uvcvideo'
+
+
+// Script will return a 0 if the camera is OFF or 1 if ON
+
